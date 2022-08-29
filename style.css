@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left,  #94fce2,  #9f54eb);
+    background-color: #94fce2;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7vh;
+    flex-direction: column;
+}
+.login{
+    margin-top: 8vh;
+    width: 20vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    
+    border: none;
+}
+.container-email, .container-password{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 38vh;
+    height: 10vh;
+    padding: 2.5vh;
+    background-color: #5E239D;
+    border-radius: 2.5vh;
+    margin: 1vh;
+}
+.container-email input, .container-password input{
+    width: 28vh;
+    height: 4vh;
+    margin: 1vh;
+    font-size: 2.3vh;
+    padding: 1vh;
+    background-color: transparent;
+    color:#C1FFF0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-email img, .container-password img{
+    margin:1vh;
+    height: 3.5vh;
+}
+button{
+    margin: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    /* border-radius: 10vh; */
+    border:3px solid purple;
+    width: 25.5vh;
+    height: 5.5vh;
+    background-color: transparent;
+    font-size: 3.5vh;
+    color:#5E239D;
+}
+button:hover{
+    background-color:#a560ee;
+    border: none;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color:#5E239D;
+    font-weight: 900;
+    font-size:2.5vh;
+}
